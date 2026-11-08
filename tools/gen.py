@@ -24,7 +24,7 @@ META = {
   'contact.html':(SITE+' | 창원·마산 | 상담·문의', '유병열 법무사·행정사 사무소 연락처와 오시는 길. 창원시 마산합포구 3·15대로 217, 2층. 전화 055-286-2064, 평일 09~18시·주말 09~13시.'),
 }
 LD = '''<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebSite","name":"유병열 법무사·행정사 사무소","alternateName":["유병열 법무사","유병열 법무사 사무소"],"url":"'''+BASE+'''","inLanguage":"ko-KR"}</script>
-<script type="application/ld+json">{"@context":"https://schema.org","@type":"LegalService","name":"유병열 법무사·행정사 사무소","url":"'''+BASE+'''","image":"'''+BASE+'''img/exterior.jpg","telephone":"+82-55-286-2064","faxNumber":"+82-55-224-2064","email":"byryu210@gmail.com","address":{"@type":"PostalAddress","streetAddress":"3·15대로 217, 2층","addressLocality":"창원시 마산합포구","addressRegion":"경상남도","addressCountry":"KR"},"openingHoursSpecification":[{"@type":"OpeningHoursSpecification","dayOfWeek":["Monday","Tuesday","Wednesday","Thursday","Friday"],"opens":"09:00","closes":"18:00"},{"@type":"OpeningHoursSpecification","dayOfWeek":["Saturday","Sunday"],"opens":"09:00","closes":"13:00"}]}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"LegalService","name":"유병열 법무사·행정사 사무소","url":"'''+BASE+'''","image":"'''+BASE+'''img/exterior.jpg","logo":"'''+BASE+'''icon-512.png","telephone":"+82-55-286-2064","faxNumber":"+82-55-224-2064","email":"byryu210@gmail.com","address":{"@type":"PostalAddress","streetAddress":"3·15대로 217, 2층","addressLocality":"창원시 마산합포구","addressRegion":"경상남도","addressCountry":"KR"},"openingHoursSpecification":[{"@type":"OpeningHoursSpecification","dayOfWeek":["Monday","Tuesday","Wednesday","Thursday","Friday"],"opens":"09:00","closes":"18:00"},{"@type":"OpeningHoursSpecification","dayOfWeek":["Saturday","Sunday"],"opens":"09:00","closes":"13:00"}]}</script>
 '''  # (파일명, 제목, 설명, 본문, 스크립트, 버전) 버전: 'AB' 공통, 'A'만, 'B'만
 MAP = 'https://map.naver.com/p/search/%EB%B2%95%EB%AC%B4%EC%82%AC%20%ED%96%89%EC%A0%95%EC%82%AC%20%EC%9C%A0%EB%B3%91%EC%97%B4%20%EC%82%AC%EB%AC%B4%EC%86%8C'
 
@@ -58,7 +58,9 @@ def render(fn, title, desc, body, scripts, v):
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>{full}</title>
 <meta name="description" content="{desc}">
-{robots}{seo}{ga}<link rel="icon" href="{R}img/emblem.jpg">
+{robots}{seo}{ga}<link rel="icon" href="{R}favicon.ico" sizes="48x48">
+<link rel="icon" type="image/png" href="{R}icon-192.png" sizes="192x192">
+<link rel="apple-touch-icon" href="{R}apple-touch-icon.png">
 <script>(function(){{if(!window.matchMedia||!document.fonts||!(matchMedia("(max-width:819px)").matches||matchMedia("(pointer:coarse)").matches||(window.screen&&screen.width<=819)))return;var d=document.documentElement;d.className+=" wf";function ok(){{d.className=d.className.replace(" wf","")}}setTimeout(ok,500);document.fonts.ready.then(ok)}})()</script>
 <link rel="stylesheet" href="{R}fonts/pretendard.css?v=1.3.9">
 <link rel="stylesheet" href="{R}style.css?v={VER}">
