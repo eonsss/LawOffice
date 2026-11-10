@@ -19,7 +19,7 @@ ul{list-style:none}
 .nav.scrolled{border-color:var(--line)}
 .nav-in{display:flex;align-items:center;justify-content:space-between;height:60px;gap:16px}
 .brand{display:flex;align-items:center;gap:10px;font-weight:700;font-size:16px;mix-blend-mode:normal}
-.brand img{mix-blend-mode:multiply}
+.brand img{mix-blend-mode:normal}
 .menu{display:none;gap:28px;font-size:15px;color:var(--ink2);font-weight:500}
 .menu a:hover{color:var(--ink)}
 @media(min-width:820px){.menu{display:flex}}

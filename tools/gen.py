@@ -69,7 +69,7 @@ def render(fn, title, desc, body, scripts, v):
 <body>
 <header class="nav" id="nav">
   <div class="wrap nav-in">
-    <a class="brand" href="index.html" aria-label="유병열 법무사·행정사 사무소 홈"><img src="{R}img/emblem.jpg" alt="" width="44" height="41"><span class="bt"><b>유병열</b><small>법무사·행정사</small></span></a>
+    <a class="brand" href="index.html" aria-label="유병열 법무사·행정사 사무소 홈"><img src="{R}img/emblem.png" alt="" width="44" height="41"><span class="bt"><b>유병열</b><small>법무사·행정사</small></span></a>
     <nav class="menu bmenu">{menu}</nav>
     <span class="hbtns"><a class="btn btn-sm" href="tel:0552862064" data-pop="call">전화 상담</a><a class="btn btn-sm" href="sms:01028512064" data-pop="sms">문자 상담</a></span>
   </div>
