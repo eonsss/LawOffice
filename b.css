@@ -218,7 +218,7 @@ html{-webkit-text-size-adjust:100%;text-size-adjust:100%}
   .cvisit .info{grid-area:info;margin:24px 0 28px}
   .cvisit .cta{grid-area:cta}
   .cvisit .note{grid-area:note}
-  .cvisit .map{grid-area:map;margin:24px 0 0;position:relative;aspect-ratio:1200/853}
+  .cvisit .map{grid-area:map;margin:24px 0 0;position:relative;aspect-ratio:1600/1137}
   .cvisit .map img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:50% 50%}
 }
 
